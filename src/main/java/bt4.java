@@ -7,10 +7,6 @@ public class bt4 {
         System.out.println("Nhap 1 so nguyen tu 1 den 7: ");
         int day = sc.nextInt();
 
-        if (day>7||day<=0){
-            System.out.println("Vui long nhap so nguyen tu 1 den 7!!!");
-        }
-
         switch (day){
             case 1:
                 System.out.println("Thu Hai");
@@ -33,6 +29,9 @@ public class bt4 {
             case 7:
                 System.out.println("Chu Nhat");
                 break;
+            default:
+                System.out.println("Vui long nhap so nguyen tu 1 den 7!!!");
+
         }
     }
 }
